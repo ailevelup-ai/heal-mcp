@@ -51,9 +51,10 @@ Copyright of contributions will be assigned to SSage Software Inc.
 ## 🧪 Testing
 
 Test your changes:
-- [ ] Run on macOS
-- [ ] Test with Claude Desktop
+- [ ] Run on your platform (macOS/Linux/Windows)
+- [ ] Test with Claude Desktop (if applicable)
 - [ ] Test with Claude Code
+- [ ] Test with Cursor (if applicable)
 - [ ] Verify backups work
 - [ ] Check error handling
 
@@ -65,6 +66,8 @@ heal-mcp/
 ├── LICENSE
 ├── README.md
 ├── CONTRIBUTING.md
+├── assets/
+│   └── logo.svg
 ├── scripts/
 │   ├── health-dashboard.py
 │   ├── interactive-repair.py
@@ -78,6 +81,7 @@ heal-mcp/
 ## 💬 Communication
 
 - **Issues**: [GitHub Issues](https://github.com/ailevelup-ai/heal-mcp/issues)
-- **Email**: licensing@ssagesoftware.com
+- **Email**: sales@ssage.com
+- **Website**: [ssage.com](https://ssage.com)
 
 Thank you for contributing!
