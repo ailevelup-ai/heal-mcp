@@ -1,0 +1,50 @@
+# Backups (auto-generated)
+backups/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Test files
+test_*.py
+*_test.py
+.pytest_cache/
+.coverage
+
+# User-specific configuration (with sensitive data)
+*.local.json
+.env
+
+# Temporary files
+tmp/
+temp/
+*.tmp
