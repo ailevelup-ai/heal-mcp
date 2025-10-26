@@ -1,21 +1,51 @@
-MIT License
+GNU AFFERO GENERAL PUBLIC LICENSE
+Version 3, 19 November 2007
 
-Copyright (c) 2025 AI Level Up
+Copyright (C) 2025 SSage Software Inc
+5550 Glades Rd St 500-1160
+Boca Raton, FL 33431
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+================================================================================
+ADDITIONAL PERMISSIONS AND USAGE TERMS
+================================================================================
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+This software is FREE to use for:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+✓ Educational purposes
+✓ Non-profit organizations  
+✓ Personal use
+✓ Commercial use within companies with annual revenue below $1,000,000 USD
+
+For commercial use by companies with annual revenue of $1,000,000 USD or more,
+a separate commercial license must be obtained from SSage Software Inc.
+
+Contact: licensing@ssagesoftware.com
+
+================================================================================
+LICENSE TERMS
+================================================================================
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Affero General Public License for more details.
+
+The complete text of the GNU Affero General Public License can be found at:
+https://www.gnu.org/licenses/agpl-3.0.txt
+
+================================================================================
+NETWORK USE REQUIREMENT (AGPL-3 Section 13)
+================================================================================
+
+If you run a modified version of this software on a server and let other users
+communicate with it there, your server must provide those users with a way to
+download the source code of your modified version.
+
+================================================================================
+
+For questions about licensing, please contact SSage Software Inc.
