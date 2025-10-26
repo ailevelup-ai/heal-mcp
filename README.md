@@ -1,14 +1,21 @@
-# 🏥 heal-mcp: MCP Server Diagnostic & Repair Skill
+<div align="center">
+  <img src="assets/logo.svg" alt="SSage Software Logo" width="120"/>
+  
+  # 🏥 heal-mcp
+  ### MCP Server Diagnostic & Repair Skill
+  
+  [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL%203.0-blue.svg)](LICENSE)
+  [![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey.svg)]()
+  [![Claude Skills](https://img.shields.io/badge/Claude-Skills-brightgreen.svg)]()
+</div>
 
-[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL%203.0-blue.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-macOS-lightgrey.svg)]()
-[![Claude Skills](https://img.shields.io/badge/Claude-Skills-brightgreen.svg)]()
+---
 
-> A comprehensive Claude Code skill for diagnosing, repairing, and managing Model Context Protocol (MCP) servers across Claude Desktop, Claude Code, and Cursor.
+> A comprehensive Claude Code skill for diagnosing, repairing, and managing Model Context Protocol (MCP) servers across Claude Desktop, Claude Code, and Cursor on macOS, Linux, and Windows.
 
 ## 🎯 What is heal-mcp?
 
-`heal-mcp` is an advanced diagnostic and repair skill that Claude can use to troubleshoot MCP server issues. It provides systematic workflows, automated scripts, and interactive tools to keep your MCP servers healthy and running smoothly.
+`heal-mcp` is an advanced diagnostic and repair skill that Claude can use to troubleshoot MCP server issues. It provides systematic workflows, automated scripts, and interactive tools to keep your MCP servers healthy and running smoothly across all platforms.
 
 ### Key Features
 
@@ -19,6 +26,7 @@
 - **💾 Automatic Backups**: Every operation creates timestamped restore points
 - **📊 Version Checker**: Find outdated servers and update them
 - **✅ Config Validator**: Validate JSON syntax and MCP structure
+- **🖥️ Cross-Platform**: Full support for macOS, Linux, and Windows
 
 ## 🚀 Quick Start
 
@@ -26,19 +34,29 @@
 
 1. Clone this repository to Claude's skills directory:
 
+**macOS/Linux:**
 ```bash
 git clone https://github.com/ailevelup-ai/heal-mcp.git ~/.claude/skills/heal-mcp
 ```
 
+**Windows (PowerShell):**
+```powershell
+git clone https://github.com/ailevelup-ai/heal-mcp.git $env:USERPROFILE\.claude\skills\heal-mcp
+```
+
 2. Make scripts executable:
 
+**macOS/Linux:**
 ```bash
 chmod +x ~/.claude/skills/heal-mcp/scripts/*.sh
 chmod +x ~/.claude/skills/heal-mcp/scripts/*.py
 ```
 
+**Windows:** Scripts are ready to use, no chmod needed.
+
 3. Verify installation:
 
+**All Platforms:**
 ```bash
 python3 ~/.claude/skills/heal-mcp/scripts/health-dashboard.py
 ```
@@ -110,7 +128,7 @@ python3 ~/.claude/skills/heal_mcp/scripts/install-dependencies.py
 ```
 
 Installs:
-- Node.js (via Homebrew)
+- Node.js (via Homebrew/apt/Chocolatey)
 - Python 3
 - uv/uvx
 - Other MCP requirements
@@ -139,11 +157,11 @@ Updates:
 
 ## 📚 Supported Platforms
 
-| Platform | Config Location | Notes |
-|----------|----------------|-------|
-| **Claude Desktop** | `~/Library/Application Support/Claude/claude_desktop_config.json` | macOS only |
-| **Claude Code** | `~/.claude.json` (user)<br>`.mcp.json` (project) | Cross-platform |
-| **Cursor** | `~/.cursor/mcp.json` (global)<br>`.cursor/mcp.json` (project) | Cross-platform |
+| Platform | macOS | Linux | Windows | Config Location |
+|----------|:-----:|:-----:|:-------:|-----------------|
+| **Claude Desktop** | ✅ | ❌ | ✅ | macOS: `~/Library/Application Support/Claude/`<br>Windows: `%APPDATA%/Claude/` |
+| **Claude Code** | ✅ | ✅ | ✅ | `~/.claude.json` or `.mcp.json` (project) |
+| **Cursor** | ✅ | ✅ | ✅ | `~/.cursor/mcp.json` or `.cursor/mcp.json` (project) |
 
 ## 🔍 Common Issues & Solutions
 
@@ -207,7 +225,7 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for deta
 git clone https://github.com/ailevelup-ai/heal-mcp.git
 cd heal-mcp
 
-# Make scripts executable
+# Make scripts executable (macOS/Linux)
 chmod +x scripts/*.sh scripts/*.py
 
 # Run tests
@@ -228,7 +246,7 @@ This project is licensed under the **GNU Affero General Public License v3.0** (A
 - ✅ Personal use
 - ✅ Commercial use by companies with annual revenue below $1,000,000 USD
 
-For commercial use by companies with $1M+ annual revenue, please contact licensing@ssagesoftware.com for a commercial license.
+For commercial use by companies with $1M+ annual revenue, please contact **sales@ssage.com** for a commercial license.
 
 See [LICENSE](LICENSE) for the full license text.
 
@@ -245,12 +263,14 @@ Special thanks to:
 
 - **Issues**: [GitHub Issues](https://github.com/ailevelup-ai/heal-mcp/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/ailevelup-ai/heal-mcp/discussions)
-- **Email**: licensing@ssagesoftware.com
+- **Email**: sales@ssage.com
+- **Website**: [ssage.com](https://ssage.com)
 
 ## 🗺️ Roadmap
 
-- [ ] Windows support enhancement
-- [ ] Linux support
+- [x] macOS support
+- [x] Linux support
+- [x] Windows support
 - [ ] Automated server updates
 - [ ] MCP marketplace integration
 - [ ] Web UI for configuration management
@@ -259,4 +279,6 @@ Special thanks to:
 
 ---
 
-Made with ❤️ by [SSage Software Inc](https://ssagesoftware.com)
+<div align="center">
+  Made with ❤️ by <a href="https://ssage.com">SSage Software Inc</a>
+</div>
